@@ -16,7 +16,7 @@ public class AutoItFifo {
 		driver.manage().window().maximize();
 		driver.findElement(By.xpath("//input[@type='file']")).click();
 		Runtime.getRuntime().exec("F:\\cjc Project\\Automation testing\\Programs\\AutoIT_tool\\Anuptools\\Autoitdemofilefirefox.exe");	
-		System.out.println("Github changes");
+		
 	}
 	   
 }
